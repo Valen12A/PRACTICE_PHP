@@ -12,5 +12,5 @@ $mayores_de_edad = array_filter($edades, function($current) {
     return $current >= 18;
 }); 
 $mayores_de_edad = array_filter($edades, fn($current) => $current >= 18);
-print_r($mayores_de_edad);
 
+echo implode (", ", $mayores_de_edad);
