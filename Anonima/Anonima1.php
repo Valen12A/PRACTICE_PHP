@@ -1,12 +1,8 @@
 <?php 
-$saludo = function ($nombre)
-{
-    print ('---'. $nombre);
-
+$saludo = function($nombre) {
+    echo '--- ' . $nombre . '<br>';
 };
 
-$saludo ('Bienvenidos');
-$saludo ('Llamano a la funcion');
-
-
+$saludo('Bienvenidos'); 
+$saludo('Llamando a la función'); 
 ?>
