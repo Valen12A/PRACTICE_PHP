@@ -9,5 +9,3 @@ function make_a_cat_bark(&$cat_dog) {
 make_a_cat_bark($cat);
 
 echo $cat;
-
-echo "\n";
