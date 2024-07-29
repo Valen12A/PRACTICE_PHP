@@ -1,14 +1,14 @@
 <?php
 
-function caminito2() {
+function caminito2 () {
     return 20 / 0;
 }
 
 function caminito() {
-    return caminito2();
+    return caminito2 ();
 }
 
-function division() {
+function division () {
     return caminito();
 }
 
